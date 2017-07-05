@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+header, sidebar, article, footer {
+	font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+	font-size: 1em;
+}
+
+h2 {
+	font-weight: normal;
+	font-height: 1.5em;
+}
+
+.container-fluid {
+	background-color: #eee;
+	margin-top: -20px;
+}
+
+header {
+	height: 70px;
+    background-color: #999999;
+}
+
+.header-text h1 {
+	text-align: center;
+	padding-top: 15px;
+}
+
+sidebar {
+	width: 300px;
+	margin-left: 20px;
+	background-color: #d3efc6;
+	color: #676a3d;
+	float: left;
+}
+
+.photo-wrapper {
+	text-align: center;
+}
+
+.photo {
+	height: 150px;
+	background-color: #bf7701;
+	border-radius: 50%;
+	border: 2px solid red;
+	text-align: center;
+}
+
+sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ul-left {
+	line-height: 3em;
+	list-style-type: none;
+}
+
+.checked {
+	background-color: #b0d09f;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+   
+article {
+    padding-top: 1em;
+	background-color: #eeeeee;
+	color: #3e3c3d;
+	overflow: auto;
+}
+
+.ul-right {
+	line-height: 3em;
+	list-style-type: none;
+	margin-left: 20px;
+	width: 80%;
+}
+
+.checked2 {
+		background-color: #dfdfdf;
+		font-weight: bold;
+		font-size: 1.5em;
+}
+
+footer {
+    background-color: #999999;
+	overflow: auto;
+}
+
+.footer-text h1 {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.footer-text p {
+	font-size: 1.3em;
+	padding-left: 20px;
+}
